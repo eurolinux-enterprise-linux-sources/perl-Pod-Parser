@@ -1,6 +1,6 @@
 Name:           perl-Pod-Parser
 Version:        1.61
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Basic perl modules for handling Plain Old Documentation (POD)
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -63,6 +63,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.61-2
+- Mass rebuild 2013-12-27
+
 * Tue Jun 04 2013 Petr Pisar <ppisar@redhat.com> - 1.61-1
 - 1.61 bump
 
